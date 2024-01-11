@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Dataprovider.java&apos; to &apos;Selenium_framework_Udemy/src/test/java/automation_json.data&apos;&#x0D;&#x0A;- Original project: &apos;Practice&apos;&#x0D;&#x0A;- Destination element: &apos;Selenium_framework_Udemy/src/test/java/automation_json.data&apos;&#x0D;&#x0A;- Original element: &apos;testNG.Dataprovider.java&apos;" description="Copy compilation unit" destination="=Selenium_framework_Udemy/src\/test\/java&lt;automation_json.data" element1="/src&lt;testNG{Dataprovider.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1701158000184" units="1" version="1.0"/>
+</session>

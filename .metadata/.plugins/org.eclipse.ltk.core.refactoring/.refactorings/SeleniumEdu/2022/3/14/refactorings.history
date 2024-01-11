@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SeleniumEdu/upload/pop&apos; to &apos;pop.au3&apos;" description="Rename resource &apos;pop&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="upload/pop" name="pop.au3" stamp="1648718378559" updateReferences="true"/>
+</session>

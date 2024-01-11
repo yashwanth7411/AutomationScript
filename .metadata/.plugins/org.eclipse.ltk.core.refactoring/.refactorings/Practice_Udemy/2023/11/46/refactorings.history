@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 5 elements from project &apos;Practice&apos;&#x0D;&#x0A;- Original project: &apos;Practice&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     commons-io-2.8.0-javadoc.jar&#x0D;&#x0A;     commons-io-2.8.0-sources.jar&#x0D;&#x0A;     commons-io-2.8.0-test-sources.jar&#x0D;&#x0A;     commons-io-2.8.0-tests.jar&#x0D;&#x0A;     commons-io-2.8.0.jar" description="Delete elements" element1="commons-io-2.8.0-test-sources.jar" element2="commons-io-2.8.0-sources.jar" element3="commons-io-2.8.0-javadoc.jar" element4="commons-io-2.8.0-tests.jar" element5="commons-io-2.8.0.jar" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="5" stamp="1700037591852" subPackages="false" version="1.0"/>
+</session>

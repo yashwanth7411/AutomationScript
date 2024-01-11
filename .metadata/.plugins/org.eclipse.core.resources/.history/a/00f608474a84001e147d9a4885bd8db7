@@ -1,0 +1,63 @@
+package javaStreams;
+
+import java.util.ArrayList;
+import java.util.stream.Stream;
+
+import org.testng.annotations.Test;
+
+public class Pgm1 {
+/*	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();  */
+	
+	//count the number of names starts with alphabet A
+//	@Test
+	public void regular()
+	{
+	ArrayList<String> names = new ArrayList<String>();
+		names.add("Subba");
+		names.add("AbhishekLikith");
+		names.add("Ravi");
+		names.add("Ashwin");
+		names.add("Anil");
+		int count=0;
+		for(int i=0;i<names.size();i++)
+		{
+			String friends = names.get(i);
+			if(friends.startsWith("A"))
+			{
+				count++;
+				System.out.println(friends);
+			}
+		}
+		System.out.println(count);
+	}
+
+	
+	@Test
+	public void StreamFilter()
+	{
+		ArrayList<String> names=new ArrayList<String>();
+		names.add("Akash");
+		names.add("Harish");
+		names.add("Arun");
+		names.add("Shashi");
+		names.add("Manu");
+		
+		// arraylist to streams, where you can use streams methods
+		//  lamda expression left side parameter, right side action for the parameter
+		long list = names.stream().filter(s->s.startsWith("A")).count();
+		System.out.println(list);
+		
+		// there is no life of intermidiate ops if there is no terminal op
+		//terminal operation is executed when only intermidiate ops is "True"
+		long d = Stream.of("Akash","Harish","Arun","Shashi","Anu").filter(a->
+		{
+			a.startsWith("A"));
+			return true;
+		}).count();
+		System.out.println(d);
+		 
+	}
+}

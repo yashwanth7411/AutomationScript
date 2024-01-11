@@ -1,0 +1,13 @@
+[
+
+{
+	"username" : "FirstUsername"
+	"pwd"	:   "FirstPassword"
+},
+
+{
+	"username" : "SecondUsername"
+	"pwd"	:   "SecondPassword"
+}
+
+]

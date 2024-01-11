@@ -1,0 +1,32 @@
+package javaStreams;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Webtabsorted {
+	public static void main(String args[])
+	{
+		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/offers");
+		
+		//click on column header
+		// capture all the webelement to list
+		// capture text of all webelement to new (original) list
+		// sort the new list --  sorted list
+		// compare new list vs sorted list
+		
+		driver.findElement(By.xpath("(//th[@role='columnheader'])[1]")).click();
+		List<WebElement> list = driver.findElements(By.xpath("//tr//td[1]"));
+		List<String> orglist=list.stream().map(s->s.getText()).collect(Collectors.toList());
+		
+		
+	}
+
+}

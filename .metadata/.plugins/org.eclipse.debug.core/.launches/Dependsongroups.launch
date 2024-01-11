@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="SeleniumEdu"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+<mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
+<mapEntry key="com.qa.practice.Dependsongroups" value="mthd3;mthd2;mthd4;mthd1"/>
+<mapEntry key="com.qa.practice.Groups" value="mthd1;mthd2;mthd3"/>
+</mapAttribute>
+<listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+<listEntry value="com.qa.practice.Groups"/>
+<listEntry value="com.qa.practice.Dependsongroups"/>
+</listAttribute>
+<listAttribute key="org.testng.eclipse.METHOD_TEST_LIST">
+<listEntry value="mthd3"/>
+<listEntry value="mthd2"/>
+<listEntry value="mthd1"/>
+<listEntry value="mthd4"/>
+<listEntry value="mthd1"/>
+<listEntry value="mthd2"/>
+<listEntry value="mthd3"/>
+</listAttribute>
+<listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+<mapAttribute key="org.testng.eclipse.PARAMETERS"/>
+<stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+<intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

@@ -1,0 +1,22 @@
+package udemy;
+
+import java.util.Arrays;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class SSLcheck {
+	public static void main(String args[])
+	{
+		System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
+	/*	ChromeOptions options=new ChromeOptions();
+		options.setAcceptInsecureCerts(true); */
+		WebDriver driver=new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.get("https://expired.badssl.com/");
+		System.out.println(driver.getTitle());
+	}
+
+}

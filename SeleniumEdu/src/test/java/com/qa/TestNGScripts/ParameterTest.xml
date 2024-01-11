@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="parameterTestNG" verbose="1" >
+
+
+ <test name="Test1" >
+ <parameter name="username" value="yash0987"></parameter>
+    <classes>
+       <class name="com.qa.TestNGScripts.ParametirizaXML" />
+    </classes>
+  </test>
+  
+   <test name="Test2" >
+ <parameter name="username" value="yash6543" ></parameter>
+    <classes>
+       <class name="com.qa.TestNGScripts.ParametirizaXML" />
+    </classes>
+  </test>
+  
+   <test name="Test3" >
+ <parameter name="username" value="yash3210" ></parameter>
+    <classes>
+       <class name="com.qa.TestNGScripts.ParametirizaXML" />
+    </classes>
+  </test>
+  </suite>
